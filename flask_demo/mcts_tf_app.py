@@ -68,7 +68,7 @@ class Model_1():
         return out
 model = Model_1()
 
-deepbot = agent(model,'models/tf_elo.0.5.h5')
+deepbot = agent(model,'models/tf_weights_elo.0.5.h5')
 deepMCTS = agent_MCTS(temperature=2,bot=deepbot,max_iter=1000)
 app = Flask(__name__)
 

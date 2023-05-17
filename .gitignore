@@ -9,18 +9,18 @@ __pycache__/
 #pickle files
 *.pkl
 
-#Models trained
-*.h5
-*.pt
+# #Models trained
+# *.h5
+# *.pt
 
-#other stuff
-*.pgn
-*.png
-*.jpg
-*.jpeg
-*.zip
-*.7z
-*.dot
+# #other stuff
+# *.pgn
+# *.png
+# *.jpg
+# *.jpeg
+# *.zip
+# *.7z
+# *.dot
 
 examples/backups/*
 examples/tmp/*
