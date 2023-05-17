@@ -66,7 +66,7 @@ class Model_1():
         return out
 model = Model_1()
 
-bot = agent(model,'models/tf_elo.0.5.h5')
+bot = agent(model,'./models/tf_weights-elo3.0.5.h5')
 app = Flask(__name__)
 
 @app.route('/')
