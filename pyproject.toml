@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chesslab"
+version = "1.1.2"
+authors = [
+    {name = "Hector Juarez", email = "hjuarezl1400@alumno.ipn.mx"},
+]
+description = "Library for developing a chess engine using Neural Networks and Monte Carlo Tree Search"
+readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["chess", "CNN", "chess engine"]
+license = {text = "MIT License"}
+classifiers = [
+    "Framework :: Tensorflow",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "chess",
+    "numpy",
+    "pandas",
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+
+[project.optional-dependencies]
+full = ["tensorflow", "torch", "flask"]
+tf = ["tensorflow"]
+torch = ["torch"]
+flask = ["flask"]
+

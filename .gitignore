@@ -156,3 +156,8 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+
+examples/database/*
+examples/test/stockfish*
+examples/weights/*
